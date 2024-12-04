@@ -4,7 +4,7 @@
 # import calcpkg.operation as op   # calcpkg 패키지의 operation 모듈을 가져옴
 # import calcpkg.geometry as geo    # calcpkg 패키지의 geometry 모듈을 가져옴
  
-from calcpkg.operation import add, multi, divide
+from calcpkg_original.operation import add, multi, divide
 
 print(add(10, 20))    # operation 모듈의 add 함수 사용
 print(multi(10, 20))    # operation 모듈의 multi 함수 사용
